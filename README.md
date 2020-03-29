@@ -44,7 +44,11 @@ MSMD is the only dataset used. The MSMD tutorial, guide, and helper functions ca
 https://github.com/CPJKU/msmd​. The songs in its file structure used with MSMD (8.9 GB size) can be
 downloaded with this link: ​https://zenodo.org/record/2597505/files/msmd_aug_v1-1_no-audio.zip?download=
 
+![](IMAGES/spectrogram.png)
+
 **Figure 1:** ​Spectrogram audio-aligned with sheet music. 
+
+![](IMAGES/midi.png)
 
 **Figure 2:** ​ Eugenia by Scott Joplin in MIDI
 editor. The red and green bars on the same lines are not sequential, they’re overlapping.
@@ -95,7 +99,11 @@ However the task of musical note classification has been done before​ **2** �
 was similar to ours. He used digital signal processing techniques to identify the frequency and respond with the
 musical note equivalent.
 
+![](IMAGES/audio.png)
+
 **Figure 3:** ​Data Preprocessing 
+
+![](IMAGES/pytorch.png)
 
 **Figure 4:** ​ Training the PyTorch model
 
@@ -227,5 +235,7 @@ mingus/LilyPond library.
     feature to load our own data and 2. the model architecture/hyperparameters to train our own data.
     
 **Appendix B: Additional Results**
+
+![](IMAGES/example.png)
 
 **Figure 5:** ​ Sample Predictions
