@@ -102,7 +102,7 @@ musical note equivalent.
 
 <p align="center"><img src="IMAGES/audio.png" height="300"></p>
 <p align="center"><b>Figure 3: Data Preprocessing </b></p>
-
+<br>
 <p align="center"><img src="IMAGES/pytorch.png" height="300"></p>
 <p align="center"><b>Figure 4: Training the PyTorch model</b></p>
 
