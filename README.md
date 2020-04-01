@@ -1,5 +1,4 @@
-# audioNet
-Classify Piano Audio to Music Notes using Neural Networks
+# AudioNet-Classify Piano Audio to Music Notes using Neural Networks
 
 Built by Gautam Banuru, Sahil Katrekar, and Calvin Hsieh
 
