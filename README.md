@@ -48,14 +48,11 @@ MSMD is the only dataset used. The MSMD tutorial, guide, and helper functions ca
 https://github.com/CPJKU/msmd​. The songs in its file structure used with MSMD (8.9 GB size) can be
 downloaded with this link: ​https://zenodo.org/record/2597505/files/msmd_aug_v1-1_no-audio.zip?download=
 
-<img src="IMAGES/spectrogram.png">
-
-**Figure 1:** ​Spectrogram audio-aligned with sheet music. 
-
-![](IMAGES/midi.png)
-
-**Figure 2:** ​ Eugenia by Scott Joplin in MIDI
-editor. The red and green bars on the same lines are not sequential, they’re overlapping.
+<p align="center"><img src="IMAGES/spectrogram.png" height="400"></p>
+<p align="center"><b>Figure 1: ​Spectrogram audio-aligned with sheet music.</b></p>
+<br>
+<p align="center"><img src="IMAGES/midi.png" height="200"></p>
+<p align="center"><b>Figure 2: Eugenia by Scott Joplin in MIDI editor. The red and green bars on the same lines are not sequential, they’re overlapping.</b></p>
 
 ## 3. Technical Approach
 
