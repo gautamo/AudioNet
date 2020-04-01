@@ -96,7 +96,7 @@ also make a Python web application using Flask that allows a user to record an a
 recorded will be displayed to the user.
 
 As per our research, nobody else seems to be doing musical note classification specifically with this dataset.
-However the task of musical note classification has been done before​ **2** ​. The way Patel approached the problem
+However the task of musical note classification has been done before (See Resources Section #2). The way Patel approached the problem
 was similar to ours. He used digital signal processing techniques to identify the frequency and respond with the
 musical note equivalent.
 
