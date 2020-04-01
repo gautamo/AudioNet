@@ -100,13 +100,11 @@ However the task of musical note classification has been done before​ **2** �
 was similar to ours. He used digital signal processing techniques to identify the frequency and respond with the
 musical note equivalent.
 
-![](IMAGES/audio.png)
+<p align="center"><img src="IMAGES/audio.png" height="300"></p>
+<p align="center"><b>Figure 3: Data Preprocessing </b></p>
 
-**Figure 3:** ​Data Preprocessing 
-
-![](IMAGES/pytorch.png)
-
-**Figure 4:** ​ Training the PyTorch model
+<p align="center"><img src="IMAGES/pytorch.png" height="300"></p>
+<p align="center"><b>Figure 4: Training the PyTorch model</b></p>
 
 ## 4. Experiments and Evaluation
 AudioNet was trained on an Ubuntu server instance hosted on Microsoft Azure, consisting of 6 CPU cores, 56
@@ -133,7 +131,7 @@ hours of training. Table 1 shows a subset of the 25 tests performed.
 |22C |4 |300,1000,600,300| 16| 50| 0.01| 72.32%|
 |24C| 4 |300,1000,600,300| 16 |50 |0.001 |55.11%|
 
-**Table 1:** ​ Subset of Tests Performed
+<p align="center"><b>Table 1: Subset of Tests Performed</b></p>
 
 In the group A tests, having more hidden layers in test 15A compared to 14A resulted in an additional 6%
 accuracy. In the group B tests, having a larger learning rate in test 18B compared to 19B resulted in an
@@ -168,7 +166,7 @@ enough.
 |:--:|:--:|:--:|:--:|
 |40 |0.001| 0.1| 21.04%|
 
-**Table 2:** ​ Baseline Classifier Result
+<p align="center"><b>Table 2: Baseline Classifier Result</b></p>
 
 ## 5. Lessons Learned and Insights
 Throughout the development process, we iterated through different model architectures, experimented with
@@ -204,7 +202,7 @@ allows for more detailed analysis than a proportion of correct classifications, 
 which may be overlooked.
 
 ## 6. Resources
-    1. Mat​thias Dorfer, Jan Hajič jr., Andreas Arzt, Harald Frostel, Gerhard Widmer. ​Learning Audio-Sheet
+    1. Matthias Dorfer, Jan Hajič jr., Andreas Arzt, Harald Frostel, Gerhard Widmer. ​Learning Audio-Sheet
        Music Correspondences for Cross-Modal Retrieval and Piece Identification​ (​PDF​). Transactions of the
        International Society for Music Information Retrieval, issue 1, 2018.
     2. Patel, Jay & E.S., Gopi. (2015). Musical Notes Identification using Digital Signal Processing. Procedia
@@ -215,21 +213,21 @@ which may be overlooked.
 
 **Publicly Available**
 
-1. **Python** ​: Primary programming language used.
-2. **PyTorch** ​: Used for the creation of the deep neural network that we pass our spectrogram data into.
-3. **MSMD Dataset** ​: Provides us a method of easily retrieving respective spectrogram, audio file, and
+1. **Python** : Primary programming language used.
+2. **PyTorch** : Used for the creation of the deep neural network that we pass our spectrogram data into.
+3. **MSMD Dataset** : Provides us a method of easily retrieving respective spectrogram, audio file, and
 MIDI matrix. If we have time, creation of the sheet music will be handled by converting n-hot encoded
 vectors to MIDI using the Python MIDI library and then converting MIDI to sheet music using the
 mingus/LilyPond library.
 
 **Group Generated**
 
-1. **Preprocess MSMD Raw Data to Usable Format** ​: We will generate small segments of the audio to
+1. **Preprocess MSMD Raw Data to Usable Format** : We will generate small segments of the audio to
     perform analysis on individual notes played.
-2. **Generate Spectrograms Manually from Audio** ​: While the MSMD dataset provides spectrograms
+2. **Generate Spectrograms Manually from Audio** : While the MSMD dataset provides spectrograms
     for corresponding audio clips, we can also generate spectrograms manually from the audio. This is
     used to build the raw audio to spectrogram preprocessing pipeline.
-3. **AudioNet Deep Neural Network** ​: The deep neural network written in PyTorch is hand tuned by
+3. **AudioNet Deep Neural Network** : The deep neural network written in PyTorch is hand tuned by
     varying factors such hyperparameters and the model architecture. We predict the resulting MIDI
     matrix from the neural network through a softmax function. The training and testing framework is from
     an OpenCV.org Deep Learning with PyTorch course with changes made to 1. the data loading
@@ -237,6 +235,6 @@ mingus/LilyPond library.
     
 **Appendix B: Additional Results**
 
-![](IMAGES/example.png)
+<p align="center"><img src="IMAGES/example.png" height="400"></p>
+<p align="center"><b>Figure 5: Sample Predictions</b></p>
 
-**Figure 5:** ​ Sample Predictions
