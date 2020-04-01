@@ -48,7 +48,7 @@ MSMD is the only dataset used. The MSMD tutorial, guide, and helper functions ca
 https://github.com/CPJKU/msmd​. The songs in its file structure used with MSMD (8.9 GB size) can be
 downloaded with this link: ​https://zenodo.org/record/2597505/files/msmd_aug_v1-1_no-audio.zip?download=
 
-![](IMAGES/spectrogram.png)
+<img src="IMAGES/spectrogram.png">
 
 **Figure 1:** ​Spectrogram audio-aligned with sheet music. 
 
