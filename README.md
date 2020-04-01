@@ -3,7 +3,7 @@ Classify Piano Audio to Music Notes using Neural Networks
 
 Built by Gautam Banuru, Sahil Katrekar, and Calvin Hsieh
 
-Check HiddenPower Demo.ipynb for a demo on the project.
+[Click Here](./HiddenPower Demo.ipynb) Check HiddenPower Demo.ipynb for a demo on the project.
 
 ## 1. Project Summary
 
