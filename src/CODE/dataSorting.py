@@ -244,8 +244,8 @@ def loadSplitData(dataRoot: str):
     return train, val, test
         
 if __name__ == "__main__":
-    DATA_ROOT_MSMD = '/Users/gbanuru/PycharmProjects/HACKUCI/msmd_aug_v1-1_no-audio/' # path to MSMD data set
-    data_root = "/Users/gbanuru/PycharmProjects/HACKUCI/msmd/tutorials/data_root" # path to our created dataset  
+    DATA_ROOT_MSMD = '/Users/user/PycharmProjects/folder/msmd_aug_v1-1_no-audio/' # path to MSMD data set
+    data_root = "/Users/user/PycharmProjects/folder/msmd/tutorials/data_root" # path to our created dataset  
     
     #filtered_performances = convFilter.filteredData(DATA_ROOT_MSMD) #creates a list with piece objects
     #print(f"All pieces: {len(filtered_performances)}")
