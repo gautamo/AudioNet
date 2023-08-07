@@ -118,7 +118,7 @@ class TrainingConfiguration:
         
     log_interval: int = 1000  # how many batches to wait between logging training status
     test_interval: int = 1  # how many epochs to wait before another test. Set to 1 to get val loss at each epoch
-    data_root: str = "/home/gbanuru/notebooks/CS175/data_root"  # folder to read/save data
+    data_root: str = "/home/user/notebooks/CS175/data_root"  # folder to read/save data
     num_workers: int = 10  # number of concurrent processes using to prepare data
     device: str = 'cuda'  # device to use for training.
 
